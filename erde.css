@@ -1,0 +1,23 @@
+/*Erde General Styling*/
+.m_term[term=rm]::before {
+  content:"Raw Material";
+}
+.m_term[term=am]::before {
+  content:"Alchemic Material";
+}
+.m_term[term=am-short]::before {
+  content:"Alch. Material";
+}
+.g_term[term=pb]::before {
+  content: "Proficiency Bonus";
+}
+.m_term,.g_term {
+  text-transform: capitalize;
+}
+.m_term.lower, .g_term.lower{
+  text-transform: lowercase;
+}
+.m_term.upper, .g_term.upper{
+  text-transform: uppercase;
+}
+/*--------------------*/
