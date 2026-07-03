@@ -1,35 +1,65 @@
+@import url("https://nate-sheltry.github.io/Homebrewery-Styling/dnd100.css");
+/*dnd100*/
+.page .monster.dnd100 hr {
+  background-image:url(https://lh3.googleusercontent.com/d/1y7rc_zV2sOhLiVZYgCwDLKITPQYv1w0Z=s70);
+}
+.page .monster.frame.dnd100 {
+  background-image:url(https://lh3.googleusercontent.com/d/1GAKDYyKhCrnh2hhhd2JExSstBERHnXNm=s1000);
+  background-color:var(--dnd100-monster-stats-bgc);
+  background-blend-mode:screen;
+  border-image:url(https://lh3.googleusercontent.com/d/1zYkyt7xZVglZ1WJIB9NanfQdVmwll_B5=s800) 14 round;
+  border-image-outset: 0px 2px;
+  box-shadow: 1px 4px 14px #888888;
+  z-index:-10;
+}
+.page .monster.dnd100 h2, .page .monster.dnd100 h3, .page .monster.dnd100 dl dt {
+  color:var(--dnd100-header-color);
+}
+/********/
+/*dnd2024*/
 .page .monster.m2024 {
   background:rgba(225,225,225,1);
   background-image: url(https://homebrewery.naturalcrit.com/assets/parchmentBackgroundGrayscale.jpg);
 }
-
-.m2024 .statBlock {
+/*********/
+/*Stat Block*/
+.m2024 .statBlock, .dnd100 .statBlock {
   margin-top:-.12cm;
   margin-bottom:-.12cm;
 }
-.m2024 .statBlock table {
+.m2024 .statBlock table, .dnd100 .statBlock table {
   border-collapse: separate;
   border-spacing: 0 2px; /* horizontal | vertical gap */
+}
+.m2024 .statBlock table {
   color: var(--HB_Color_HeaderText);
 }
-.m2024 .statBlock table thead tr {
+.m2024 .statBlock table thead tr,
+.dnd100 .statBlock table thead tr{
   line-height:0.9
 }
-.m2024 .statBlock table thead th {
+.m2024 .statBlock table thead th,
+.dnd100 .statBlock table thead th {
   color:rgba(63,55,40,0.75); 
   font-size:0.85em; 
   padding:0;
 }
-.page .m2024 .statBlock table tbody tr {
+.page .m2024 .statBlock table tbody tr,
+.page .dnd100 .statBlock table tbody tr {
   background:rgba(0,0,0,0);
 }
-.m2024 .statBlock table th:nth-child(5){
+.m2024 .statBlock table th:nth-child(5),
+.dnd100 .statBlock table th:nth-child(4){
   width:0.5em;
 }
-
-.m2024 .statBlock table tbody tr td:nth-child(5n+1){
+.m2024 .statBlock table tbody tr td:nth-child(5n+1),
+.dnd100 .statBlock table tbody tr td:nth-child(4n+1){
   font-weight:bold;
 }
+.dnd100 .statBlock table tbody tr td:nth-child(4n+3){
+  font-style:italic;
+}
+
 .m2024 .statBlock table tbody tr td:nth-child(-n+4){
   background:rgba(80,120,60,0.25);
 }
@@ -42,6 +72,8 @@
 .m2024 .statBlock table tbody tr td:nth-child(n+8) {
   background:rgba(80,60,120,0.25);
 }
+/***********/
+/*Monster Image*/
 .page .monster {
   z-index:-10;
 }
@@ -69,3 +101,4 @@
   position:relative;
   min-height:100%;
 }
+/***************/
