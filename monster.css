@@ -12,16 +12,36 @@
   border-spacing: 0 2px; /* horizontal | vertical gap */
   color: var(--HB_Color_HeaderText);
 }
-.m2024 .statBlock table thead tr       {line-height:0.9}
-.m2024 .statBlock table thead th       {color:rgba(63,55,40,0.75); font-size:0.85em; padding:0;}
-.page .m2024 .statBlock table tbody tr {background:rgba(0,0,0,0);}
-.m2024 .statBlock table th:nth-child(5){width:0.5em;}
+.m2024 .statBlock table thead tr {
+  line-height:0.9
+}
+.m2024 .statBlock table thead th {
+  color:rgba(63,55,40,0.75); 
+  font-size:0.85em; 
+  padding:0;
+}
+.page .m2024 .statBlock table tbody tr {
+  background:rgba(0,0,0,0);
+}
+.m2024 .statBlock table th:nth-child(5){
+  width:0.5em;
+}
 
-.m2024 .statBlock table tbody tr td:nth-child(5n+1){font-weight:bold;}
-.m2024 .statBlock table tbody tr td:nth-child(-n+4){background:rgba(80,120,60,0.25);}
-.m2024 .statBlock table tbody tr td:nth-child(-n+2){background:rgba(160,160,120,0.25);}
-.m2024 .statBlock table tbody tr td:nth-child(n+6) {background:rgba(160,130,150,0.25);}
-.m2024 .statBlock table tbody tr td:nth-child(n+8) {background:rgba(80,60,120,0.25);}
+.m2024 .statBlock table tbody tr td:nth-child(5n+1){
+  font-weight:bold;
+}
+.m2024 .statBlock table tbody tr td:nth-child(-n+4){
+  background:rgba(80,120,60,0.25);
+}
+.m2024 .statBlock table tbody tr td:nth-child(-n+2){
+  background:rgba(160,160,120,0.25);
+}
+.m2024 .statBlock table tbody tr td:nth-child(n+6) {
+  background:rgba(160,130,150,0.25);
+}
+.m2024 .statBlock table tbody tr td:nth-child(n+8) {
+  background:rgba(80,60,120,0.25);
+}
 .page .monster {
   z-index:-10;
 }
