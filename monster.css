@@ -67,4 +67,5 @@
 }
 .monster .monsterImage p img{
   position:relative;
+  min-height:100%;
 }
