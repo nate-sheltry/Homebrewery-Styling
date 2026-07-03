@@ -1,0 +1,10 @@
+:root {
+  --dnd100-uni-table-green: rgba(30,225,15,0.70);
+  --dnd100-uni-table-red: rgba(225,15,30,0.70);
+  --dnd100-uni-table-yellow: rgba(255,230,30,0.70);
+  --dnd100-uni-table-white: rgba(255,255,255,0.70);
+  --dnd100-monster-stats-bgc:rgba(162,129,40,1);
+  --dnd100-header-color:rgba(95,50,24,1);
+  --dnd100-font-char-first:rgba(182,124,30,0.9);
+  --dnd100-highlight-color:rgba(242,189,70,1);
+}
