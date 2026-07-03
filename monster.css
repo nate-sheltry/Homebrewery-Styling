@@ -65,3 +65,6 @@
   align-items: center;
   height:100%;
 }
+.monster .monsterImage p img{
+  position:relative;
+}
